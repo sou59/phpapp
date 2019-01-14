@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35020060-4383-4f9b-9b4a-9e2e566b7444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testing/src/Aston/Hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/src/Aston/Math.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/test/Aston/test/MathTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/lib/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/service/fonction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/dumpsql/messagerie.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/accueilMessagerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/boiteReception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/contenuMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/creerCompte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/creerCompteValide.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/messageEnvoye.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/nouveauMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/nouveauMessageConfirmation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/rechercheMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/verifConnexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/verifCreation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteWeb/metier/verifNouveauMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/src/Aston/Cart/Basket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/src/Aston/Cart/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/test/Aston/test/BasketTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/src/Aston/Math.php" beforeDir="false" afterPath="$PROJECT_DIR$/testing/src/Aston/Math.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/test/Aston/test/MathTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test/Aston/test/MathTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,40 +41,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/index.php">
+        <entry file="file://$PROJECT_DIR$/testing/src/Aston/Cart/Basket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/composer.json">
+        <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/BasketTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php">
+        <entry file="file://$PROJECT_DIR$/testing/src/Aston/Math.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#31#47#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/Aston/Hello.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/src/Aston/Cart/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/MathTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="477">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#30#45#0#PHP" expanded="true" />
               </folding>
@@ -64,19 +107,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/Aston/Math.php">
+        <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/src/Aston/Hello.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#31#47#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +157,9 @@
         <option value="$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php" />
         <option value="$PROJECT_DIR$/testing/src/Aston/Math.php" />
         <option value="$PROJECT_DIR$/testing/test/Aston/test/MathTest.php" />
+        <option value="$PROJECT_DIR$/testing/test/Aston/test/BasketTest.php" />
+        <option value="$PROJECT_DIR$/testing/src/Aston/Cart/Product.php" />
+        <option value="$PROJECT_DIR$/testing/src/Aston/Cart/Basket.php" />
       </list>
     </option>
   </component>
@@ -199,6 +239,14 @@
               <item name="phpapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="testing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Aston" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Cart" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="phpapp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="testing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -271,18 +319,17 @@
       <updated>1546505567808</updated>
       <workItem from="1546505572454" duration="18529000" />
       <workItem from="1546589180507" duration="8103000" />
-      <workItem from="1547457125243" duration="8071000" />
+      <workItem from="1547457125243" duration="15644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34703000" />
+    <option name="totallyTimeSpent" value="42276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12230216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14886552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,7 +342,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32914573" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,44 +482,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/Aston/Hello.php">
+    <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/MathTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="477">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#30#45#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/HelloTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#31#47#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/src/Aston/Math.php">
+    <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/BasketTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/test/Aston/test/MathTest.php">
+    <entry file="file://$PROJECT_DIR$/testing/src/Aston/Math.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#30#45#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/Aston/Cart/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/Aston/Cart/Basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/src/Aston/Hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>

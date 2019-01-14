@@ -15,7 +15,7 @@ class HelloTest extends TestCase
 
     public function testSayHelloWithProblem() {
         $hello = new Hello();
-        $this->assertEquals('Auto Hello', $hello->sayHello());
+        $this->assertNotEquals('Auto Hello', $hello->sayHello());
     }
 
     public function testSayHelloWithProblemTest2() {
