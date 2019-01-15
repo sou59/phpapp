@@ -1,63 +1,140 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dev
- * Date: 14/01/19
- * Time: 16:00
- */
 
 namespace Aston\Cart;
 
 
 class Product
 {
-    private $name;
-    private $quantity;
-
+    /**
+    * @var mixed
+    */
+    private $id;
+    /**
+     * @var string
+     */
+    private $title;
+    /**
+     * @var string
+     */
+    private $description;
+    /**
+     * @var float
+     */
+    private $price;
+    /**
+     * @var string
+     */
+    private $imageURL;
     /**
      * Product constructor.
-     * @param $name
-     * @param $quantity
+     *
+     * @param mixed $id
+     * @param string $title
+     * @param string $description
+     * @param float $price
+     * @param string $imageURL
      */
-    public function __construct($name, $quantity)
+    public function __construct(
+        $id = null,
+        string $title = '',
+        string $description = '',
+        float $price = 0,
+        string $imageURL = ''
+    )
     {
-        $this->name = $name;
-        $this->quantity = $quantity;
+        $this->setId($id);
+        $this->setTitle($title);
+        $this->setDescription($description);
+        $this->setPrice($price);
+        $this->setImageURL($imageURL);
     }
-
-    /**
-     * @param mixed $name
-     */
-    public function setName($name): void
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * @param mixed $quantity
-     */
-    public function setQuantity($quantity): void
-    {
-        $this->quantity = $quantity;
-    }
-
     /**
      * @return mixed
      */
-    public function getName()
+    public function getId()
     {
-        return $this->name;
+        return $this->id;
     }
-
     /**
-     * @return mixed
+     * @param mixed $id
+     * @return Product
      */
-    public function getQuantity()
+    public function setId($id)
     {
-        return $this->quantity;
+        $this->id = $id;
+        return $this;
     }
-
-
+    /**
+     * @return string
+     */
+    public function getTitle(): string
+    {
+        return $this->title;
+    }
+    /**
+     * @param string $title
+     * @return Product
+     */
+    public function setTitle(string $title): Product
+    {
+        $this->title = $title;
+        return $this;
+    }
+    /**
+     * @return string
+     */
+    public function getDescription(): string
+    {
+        return $this->description;
+    }
+    /**
+     * @param string $description
+     * @return Product
+     */
+    public function setDescription(string $description): Product
+    {
+        $this->description = $description;
+        return $this;
+    }
+    /**
+     * @return float
+     */
+    public function getPrice(): float
+    {
+        return $this->price;
+    }
+    /**
+     * @param float $price
+     * @return Product
+     */
+    public function setPrice(float $price): Product
+    {
+        $this->price = $price;
+        return $this;
+    }
+    /**
+     * @return string
+     */
+    public function getImageURL(): string
+    {
+        return $this->imageURL;
+    }
+    /**
+     * @param string $imageURL
+     * @return Product
+     */
+    public function setImageURL(string $imageURL): Product
+    {
+        $this->imageURL = $imageURL;
+        return $this;
+    }
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getTitle();
+    }
 
 
 }

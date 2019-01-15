@@ -4,11 +4,33 @@ namespace Aston\Cart;
 
 class Basket
 {
-    private $panier;
+    /**
+     * @var array
+     */
+    private $quantity = [];
 
-    public function addProduct(): Product {
-        $this->panier = new Product("Coca", "2");
+    /**
+     * @var array
+     */
+    private $products = [];
 
+    /**
+     * @param Product $product
+     * @return $this
+     */
+    protected function setProduct(Product $product) {
+        $this->products([$product->getId()] = $product;
+        return $this;
+
+    }
+
+    /**
+     * @param Product $product
+     * @return $this
+     */
+    protected function setQuantity(Product $product) {
+        $this->quantity[$product->getId()] = 0;
+        return $this;
     }
 
 

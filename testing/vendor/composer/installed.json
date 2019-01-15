@@ -704,12 +704,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "6bef716234a519ee880b593179a52bb6ddd2cbd3"
+            "reference": "8c850b1681799f899515a5e2180c57595416989d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6bef716234a519ee880b593179a52bb6ddd2cbd3",
-            "reference": "6bef716234a519ee880b593179a52bb6ddd2cbd3",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8c850b1681799f899515a5e2180c57595416989d",
+            "reference": "8c850b1681799f899515a5e2180c57595416989d",
             "shasum": ""
         },
         "require": {
@@ -748,7 +748,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "^2.0"
         },
-        "time": "2019-01-11T06:11:07+00:00",
+        "time": "2019-01-15T09:52:32+00:00",
         "bin": [
             "phpunit"
         ],
@@ -1367,6 +1367,59 @@
         ],
         "description": "Library that helps with managing the version number of Git-hosted PHP projects",
         "homepage": "https://github.com/sebastianbergmann/version"
+    },
+    {
+        "name": "squizlabs/php_codesniffer",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+            "reference": "b95ff2c3b122a3ee4b57d149a57d2afce65522c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b95ff2c3b122a3ee4b57d149a57d2afce65522c3",
+            "reference": "b95ff2c3b122a3ee4b57d149a57d2afce65522c3",
+            "shasum": ""
+        },
+        "require": {
+            "ext-simplexml": "*",
+            "ext-tokenizer": "*",
+            "ext-xmlwriter": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2017-05-04T00:33:04+00:00",
+        "bin": [
+            "bin/phpcs",
+            "bin/phpcbf"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Greg Sherwood",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+        "homepage": "http://www.squizlabs.com/php-codesniffer",
+        "keywords": [
+            "phpcs",
+            "standards"
+        ]
     },
     {
         "name": "symfony/polyfill-ctype",

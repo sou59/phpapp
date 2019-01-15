@@ -6,3 +6,4 @@ require './vendor/autoload.php';
 
 $hello = new \Aston\Hello();
 
+phpinfo();
