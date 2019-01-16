@@ -1,6 +1,6 @@
 <?php
 
-namespace Aston\Test\cart;
+namespace Aston\test\cart;
 
 use Aston\Cart\Product;
 use PHPUnit\Framework\TestCase;

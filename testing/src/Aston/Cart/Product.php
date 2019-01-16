@@ -6,25 +6,30 @@ namespace Aston\Cart;
 class Product
 {
     /**
-    * @var mixed
-    */
+     * @var mixed
+     */
     private $id;
+
     /**
      * @var string
      */
     private $title;
+
     /**
      * @var string
      */
     private $description;
+
     /**
      * @var float
      */
     private $price;
+
     /**
      * @var string
      */
     private $imageURL;
+
     /**
      * Product constructor.
      *
@@ -40,14 +45,14 @@ class Product
         string $description = '',
         float $price = 0,
         string $imageURL = ''
-    )
-    {
+    ) {
         $this->setId($id);
         $this->setTitle($title);
         $this->setDescription($description);
         $this->setPrice($price);
         $this->setImageURL($imageURL);
     }
+
     /**
      * @return mixed
      */
@@ -55,6 +60,7 @@ class Product
     {
         return $this->id;
     }
+
     /**
      * @param mixed $id
      * @return Product
@@ -64,6 +70,7 @@ class Product
         $this->id = $id;
         return $this;
     }
+
     /**
      * @return string
      */
@@ -71,6 +78,7 @@ class Product
     {
         return $this->title;
     }
+
     /**
      * @param string $title
      * @return Product
@@ -80,6 +88,7 @@ class Product
         $this->title = $title;
         return $this;
     }
+
     /**
      * @return string
      */
@@ -87,6 +96,7 @@ class Product
     {
         return $this->description;
     }
+
     /**
      * @param string $description
      * @return Product
@@ -96,6 +106,7 @@ class Product
         $this->description = $description;
         return $this;
     }
+
     /**
      * @return float
      */
@@ -103,6 +114,7 @@ class Product
     {
         return $this->price;
     }
+
     /**
      * @param float $price
      * @return Product
@@ -112,6 +124,7 @@ class Product
         $this->price = $price;
         return $this;
     }
+
     /**
      * @return string
      */
@@ -119,6 +132,7 @@ class Product
     {
         return $this->imageURL;
     }
+
     /**
      * @param string $imageURL
      * @return Product
@@ -128,6 +142,7 @@ class Product
         $this->imageURL = $imageURL;
         return $this;
     }
+
     /**
      * @return string
      */
@@ -135,6 +150,5 @@ class Product
     {
         return $this->getTitle();
     }
-
 
 }

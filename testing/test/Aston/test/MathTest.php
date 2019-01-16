@@ -14,27 +14,21 @@ class MathTest extends TestCase
     public function testDivisionWithInvalidArgument()
     {
         $this->expectException(TypeError::class);
-
-        Math::divide('y', 'x');
+        Math::divide('x', 'y');
     }
 
-    public function testFailedDivision()
-    {
-        Math::divide(10,2);
-    }
-
-    public function testFailedDivisionByZero()
+    public function testFailDivisionByZero()
     {
         $this->expectException(InvalidArgumentException::class);
-        Math::divide(10,0);
+        Math::divide(10, 0);
     }
 
-    public function testFailedDivisionByZero2()
+    public function testDivisionByZeroFail()
     {
-        Math::divide(10,0);
+        $this->assertNotEquals(10, Math::divide(100, 2));
     }
 
-    public function testFailedDivisionByZeroFailed()
+    public function testDivisionByZero()
     {
         $this->assertEquals(5, Math::divide(10, 2));
     }
