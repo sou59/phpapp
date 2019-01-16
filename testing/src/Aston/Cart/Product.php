@@ -2,7 +2,6 @@
 
 namespace Aston\Cart;
 
-
 class Product
 {
     /**
@@ -150,5 +149,4 @@ class Product
     {
         return $this->getTitle();
     }
-
 }

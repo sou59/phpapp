@@ -44,7 +44,8 @@ class Basket implements \Countable
         return $this;
     }
 
-    public function removeProduct(Product $product, $quantity = 1): Basket {
+    public function removeProduct(Product $product, $quantity = 1): Basket
+    {
         if ($quantity < 1) {
             throw new InvalidArgumentException('quantity is invalid');
         }
@@ -139,6 +140,4 @@ class Basket implements \Countable
         $this->quantity[$product->getId()] = 0;
         return $this;
     }
-
-
 }
